@@ -25,6 +25,7 @@ export const getPhoto=(data,template,container,filter)=>{
     picture.querySelector('img').src=element.url;
     picture.querySelector('.picture__comments').textContent=element.comments.length;
     picture.querySelector('.picture__likes').textContent=element.likes;
+    picture.querySelector('img').id=element.id;
     container.appendChild(picture);
 
 
