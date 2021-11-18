@@ -1,6 +1,6 @@
 
 
-export const getSlider=(slidercontainer,stepsize,min,max,meaning)=>{
+export const getSlider=(slidercontainer,stepsize,min,max)=>{
   noUiSlider.create(slidercontainer, {
     start: [0],
 
@@ -10,10 +10,6 @@ export const getSlider=(slidercontainer,stepsize,min,max,meaning)=>{
       'min': min,
       'max': max,
     },
-    format: wNumb({
-
-      suffix: meaning,
-    }),
 
 
   });
