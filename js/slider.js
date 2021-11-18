@@ -15,6 +15,7 @@ export const getSlider=(slidercontainer,stepsize,min,max,meaning)=>{
       suffix: meaning,
     }),
 
+
   });
 
 };
