@@ -32,7 +32,7 @@ export const sliderSetting={
   sepia:[0.1,0,1],
   marvin:[1,0,100,'%'],
   phobos:[1,0,3,'px'],
-  heat:[0.1,0,1],
+  heat:[0.1,1,3],
 
 };
 
