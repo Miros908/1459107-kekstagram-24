@@ -49,8 +49,6 @@ let numbercomments=5;
 let filtid;
 
 
-
-
 getData().then((response) => response.json()).then((data)=>{getPhoto(data,templatepicture,picturescontainer);filt.forEach((fil)=>{
 
   fil.addEventListener('click',()=>{filtid=fil.id;getPhoto(data,templatepicture,picturescontainer,String(filtid));
